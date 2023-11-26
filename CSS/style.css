@@ -1,0 +1,103 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.logo_img{
+    width: 50px;
+}
+.nav_elements li{
+    display: inline;
+    margin: 0.5vw;
+}
+
+.nav_elements{
+    flex-grow: 1;
+    text-align: right;
+}
+#Contact{
+    background-color: #e6bd43;
+    padding: 10px;
+}
+.headline{
+    background-color: #d8d8d8;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.headline a {
+    background-color: #e6bd43;
+    padding: 10px;
+    font-style: normal;
+}
+.subheading{
+    text-align: center;
+}
+.about{
+    outline: black solid 1px;
+    display: inline-flex;
+    margin: 10px;
+    padding: 20px;
+}
+.about img{
+    width: 200px;
+    margin: 10px;
+    margin-right: 20px;
+}
+.about a {
+    outline: auto;
+    padding: 10px;
+}
+.services{
+    text-align: center;
+}
+.services div{
+    display: inline-flex;
+}
+.services h2{
+    flex-basis: 100%;
+}
+.newsletter{
+    text-align: center;
+    background-color: rgb(235, 234, 234);
+}
+.newsletter form{
+    padding-top: 20px;
+
+}
+.newsletter form input{
+    border: 0;
+    padding: 10px;
+    margin: 0;
+}
+.newsletter form button{
+    border: 0;
+    padding: 10px;
+    margin: 0;
+    background-color: #e6bd43;
+}
+.newsletter article{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: inline-flex;
+    width: 100%;
+}
+footer li{
+    display: inline;
+    margin: 0.5vw;
+}
+footer p{
+    flex-grow: 1;
+    text-align: center;
+}
