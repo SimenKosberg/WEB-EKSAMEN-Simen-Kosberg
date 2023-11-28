@@ -13,10 +13,10 @@
                 <a href="index.html" class="logo_img"><img src="IMG/logo2.png" alt="logo image" class="logo_img"></a>
             </span>
             <ul class="nav_elements">
-                <li>Home</li>
-                <li>Portfolio</li>
-                <li>About</li>
-                <li id="Contact">Contact</li>
+                <li><a href="index.html" id="current" style="color:black;">Home</a></li>
+                <li><a href="portfolio.html" style="color:black;">Portfolio</a></li>
+                <li><a href="about.html" style="color:black;">About</a></li>
+                <li id="Contact"><a href="about.html#contact" style="text-decoration: none; color:black;">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -24,7 +24,7 @@
         <section class="headline">
             <h1>Headline</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum at dolor eligendi optio voluptate quod dolorem? Magnam, neque incidunt officiis aliquam iste repellendus veritatis iure omnis ut nam voluptatibus repudiandae?</p>
-            <a href="#" style="color: black; text-decoration: none;">Read more about our services</a>
+            <a href="#services" style="text-decoration: none;" class="button_link">Read more about our services</a>
         </section>
         <section class="subheading">
             <h2>subheading. What can you help your visitors with</h2>
@@ -35,10 +35,10 @@
             <article>
                 <h2>About Our Company</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et amet sunt odio ea molestiae recusandae totam culpa ducimus, sequi obcaecati in voluptatem. Et qui at est provident. Odit, vel quos.</p>
-                <a href="#" style="color: black; text-decoration: none;">Read more about us</a>
+                <a href="about.html" style="text-decoration: none;" class="button_link">Read more about us</a>
             </article>
         </section>
-        <section class="services">
+        <section class="services" id="services">
             <h2>Our services</h2>
             <div>
                 <article>
@@ -64,7 +64,7 @@
                 <label for="newsletter">Sign up for our newsletter</label>
                 <article>
                     <input type="email" id="newsletter">
-                    <button type="submit">Sign me up</button>
+                    <button type="submit" class="button_link">Sign me up</button>
                 </article>
             </form>
         </section>
